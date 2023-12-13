@@ -1,0 +1,19 @@
+.carousel-item img {
+  object-fit: cover;
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.carousel-caption p {
+  font-size: 80px; /* Adjust the font size as needed */
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}

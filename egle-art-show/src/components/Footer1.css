@@ -1,0 +1,21 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social {
+  display: flex;
+  margin-left: auto; /* Push the social icons to the right */
+}
+
+.footer-contact {
+  text-align: center; /* Center-align the contact info */
+  margin-left: auto; /* Push the contact info to the center */
+}
+
+.footer-social a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
