@@ -1,31 +1,30 @@
-import facebookIcon from './icons/facebook-icon.jpg';
-import twitterIcon from './icons/twitter-icon.png';
-import instagramIcon from './icons/instagram-icon.jpg';
-import './Footer1.css'; // Import your CSS file for Footer styles
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import './Footer1.css'; // Import your CSS file
 
 const Footer1 = () => {
   return (
-    <footer>
-      <div className="footer-content">
-        <div className="footer-contact">
-          <h5>Contact Us</h5>
-          <p>Email: example@gmail.com</p>
-        </div>
-        <div className="footer-social">
-          {/* Social media icons as buttons */}
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src={facebookIcon} alt="Facebook" />
-          </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" />
-          </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src={instagramIcon} alt="Instagram" />
-          </a>
-        </div>
+    <footer className="footer-container">
+      <div className="contact-info">
+        <h5>Contact Us</h5>
+        <p>Email: example@example.com</p>
+      </div>
+      <div className="social-icons">
+        <a href="https://www.facebook.com">
+          <FontAwesomeIcon icon={faFacebook} className="icon facebook-icon" />
+        </a>
+        <a href="https://www.twitter.com">
+          <FontAwesomeIcon icon={faTwitter} className="icon twitter-icon" />
+        </a>
+        <a href="https://www.instagram.com">
+          <FontAwesomeIcon icon={faInstagram} className="icon instagram-icon" />
+        </a>
       </div>
     </footer>
   );
 };
 
 export default Footer1;
+
+

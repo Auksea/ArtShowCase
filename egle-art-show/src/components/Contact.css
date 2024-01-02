@@ -1,0 +1,52 @@
+.contact-form {
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.855); /* Adjust background color and opacity */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding shadow for better visibility */
+  z-index: 1; /* Ensure the form is above the carousel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: #080808;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.contact-form button:hover {
+  background-color: #85809a; /* Darker color on hover */
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 800px;
+}
+
+
+

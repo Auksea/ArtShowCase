@@ -1,4 +1,5 @@
 .navbar {
+  font-family:'Times New Roman', Times, serif;
   background-color: white;
   display: flex;
   flex-direction: column;

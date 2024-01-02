@@ -1,21 +1,36 @@
-.footer-content {
-  display: flex;
-  justify-content: space-between;
+.footer-container {
+  font-family:'Times New Roman', Times, serif;
+  height: 100%;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #f0f0f0;
 }
 
-.footer-social {
-  display: flex;
-  margin-left: auto; /* Push the social icons to the right */
+.contact-info {
+  text-align: center;
+  font-size: large;
 }
 
-.footer-contact {
-  text-align: center; /* Center-align the contact info */
-  margin-left: auto; /* Push the contact info to the center */
+.social-icons {
+  text-align: end;
+  text-align: center;
 }
 
-.footer-social a img {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
+/* Specific classes for each social media icon */
+.facebook-icon {
+  color: #4267b2;
+}
+
+.twitter-icon {
+  color: #1da1f2;
+}
+
+.instagram-icon {
+  color: #e4405f;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 24px;
 }
