@@ -1,0 +1,25 @@
+.product {
+    display: inline-block; /* Display products in a row */
+    margin: 10px; /* Add some margin around each product */
+  }
+  
+  .product img {
+    width: 150px; /* Adjust the width of the product images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .product button {
+    background-color: #080808;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+
+ .product button:hover {
+    background-color: #85809a;
+  }

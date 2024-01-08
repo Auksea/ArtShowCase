@@ -23,8 +23,6 @@ const Home = () => {
     { src: '/pics/pic16.jpg', description: 'Description' },
     { src: '/pics/pic17.jpg', description: 'Description' },
     { src: '/pics/pic18.jpg', description: 'Description' },
-    { src: '/pics/pic19.jpg', description: 'Description' },
-    { src: '/pics/pic20.jpg', description: 'Description' },
     // Add more painting objects as needed
   ];
 
